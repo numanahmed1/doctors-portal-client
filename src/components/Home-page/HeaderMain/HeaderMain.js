@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Chair from "../../../images/chair.png";
 import "./HeaderMain.css";
 
@@ -14,7 +15,9 @@ const HeaderMain = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             odio maxime temporibus neque nesciunt porro?
           </p>
-          <button className="btn btn-success">Get Appointment</button>
+          <Link to="/appointment">
+            <button className="btn btn-success">Get Appointment</button>
+          </Link>
         </div>
         <div className="col-md-6">
           <img src={Chair} className="img-fluid" alt="" />
