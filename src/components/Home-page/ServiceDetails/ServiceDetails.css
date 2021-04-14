@@ -1,0 +1,12 @@
+.service-detail img {
+  height: 50px;
+}
+.service-detail h4 {
+  color: #3a4256;
+  font-size: 26px;
+  margin: 25px 0;
+}
+.service-detail param {
+  color: #616879;
+  font-size: 16px;
+}

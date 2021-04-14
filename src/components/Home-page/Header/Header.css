@@ -1,0 +1,27 @@
+.header {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.header::after {
+  height: 700px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 30%;
+  right: 0;
+  background-color: #3a4256;
+  z-index: -11;
+}
+.header::before {
+  height: 700px;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 70%;
+  left: 0;
+  background-image: url(../../../images/bg-chair.png);
+  background-position: left;
+  background-size: cover;
+  z-index: -11;
+}
